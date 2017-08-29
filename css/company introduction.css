@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,textarea,select{
+	margin:0;
+	padding:0;
+}
+body{
+	font:12px "Arial, Helvetica, sans-serif";
+	background:#fff;-webkit-text-size-abjust:100%;
+	height:100%;
+	width:100%;
+}
+a{color:#2d374b; text-decoration:none;}
+a:hover{color:#cd0200; text-decoration:none;}
+em{font-style:normal}
+li{list-style:none}
+img{border:0; vertical-align:middle}
+table{border-collapse:collapse; border-spacing:0}
+p{word-wrap:brak-word}
+header{
+	height:380px;
+	width:100%;
+	background:url(../images/banner03.jpg);
+	margin:0 auto;
+	text-align:center;
+}
+header .top{
+	width:99%;
+	height:64px;
+	padding:0.5%;
+	background:#333;
+}
+header .top img{
+	float:left;
+	margin-left:20%;
+}
+header .top .nav{
+	float:left;
+	width:63%;
+	display:inline-block;
+	height:74px;
+	margin-top:-8px;
+	float:right;
+}
+header .top .nav ul li a{
+	color:#CCC;
+	text-decoration:none;
+	display:inline-block;
+	padding:27.5px 25px;
+}
+header .top .nav ul li{
+	display:inline-block;
+	font-size:18px;
+}
+header .top .nav ul li:hover{
+	background:#0F0F0F
+}
+header .top-title{
+	height:60px;
+	width:600px;
+	margin-top:190px;
+	margin-left:370px;
+	text-align:left;
+	color:#fff;
+	font-size:20px;
+	font-family:'微软雅黑';
+}
+header .top-title h2{
+	font-size:40px;
+	font-variant:small-caps;
+}
+.main{
+	height:1200px;
+	width:1400px;
+	padding:30px 5%;
+	margin:0 auto;
+}
+.main .main-search{
+	height:1140px;
+	width:910px;
+	float:left;
+}
+.main-search .intor-nav{
+	height:50px;
+	width:900px;
+	font-family:Microsoft YaHei;
+	text-align:left;
+	border-bottom:1px solid #ccc;
+}
+.intor-nav h5{
+	font-size:18px;
+	display:inline-block;
+	height:50px;
+	line-height:48px;
+	margin-left:80px;
+}
+.intor-nav h5 a{
+	display:block;
+	height:50px;
+	border-bottom:1px solid #ccc;
+}
+.intor-nav h5 a:hover{
+	color:#50b400;
+	border-bottom:3px solid #50b400;
+}
+.main-search .intor{
+	margin:0 auto;
+	margin-top:20px;
+	height:1000px;
+	width:900px;
+	border:none;
+}
+.main .mian-nav{
+	height:1190px;
+	width:400px;
+	float:left;
+	margin-left:20px;
+}
+.mian-nav .right-nav{
+	border:0.5px solid #CCC;
+	width:350px;
+	height:350px;
+	margin:0 auto;
+	border:1px solid #ccc;
+}
+.right-nav .right-title{
+	height:35px;
+	width:100%;
+	color:#666;
+	text-align:left;
+	font-size:20px;
+	background:#eee;
+	padding-top:10px;
+}
+.right-nav .right-main{
+	height:240px;
+	width:330px;
+	margin-top:10px;
+	padding:0 20px;
+	color:#99999b
+}
+.right-main ul li{
+	text-align:left;
+	display:inline-block;
+	width:100px;
+	height:25px;
+	background:#eee;
+	font-size:15px;
+	margin-top:5px;
+	vertical-align:middle;
+	text-align:left;
+	padding-top:10px;
+}
+.right-main ul li a:hover{
+	background:#99999b;
+	color:#FFF;
+}
+.mian-nav .main-down{
+	height:680px;
+	width:350px;
+	margin:0 auto;
+	font-size:20px;
+	margin-top:10px;
+	border:1px solid #ccc;
+}
+.main-down .down-title{
+	height:35px;
+	width:100%;
+	text-align:left;
+	font-size:20px;
+	background:#eee;
+	color:#666;
+	padding-top:10px;
+}
+.main-down .menu{
+	height:610px;
+	width:330px;
+	padding:10px;
+	font-size:15px;
+	color:#333;
+}
+.menu ul li{
+	display:inline-block;
+	height:150px;
+	width:150px;
+	text-align:center;
+	margin-left:10px;
+	margin-top:2px
+}
+.menu ul li span{
+	display:inline-block;
+	margin-top:15px;
+}
+.menu ul li img{
+	height:115px;
+	width:150px;
+}
+.mian-nav .last-nav{
+	height:150px;
+	margin-top:15px;
+	width:350px;
+	border:1px solid #eee;
+}
+.last-nav .last-title{
+	height:35px;
+	width:100%;
+	text-align:left;
+	font-size:20px;
+	background:#eee;
+	color:#666;
+	padding-top:10px;
+}
+.last-nav .last-main{
+	height:80px;
+	width:330px;
+	padding:10px;
+}
+.last-main ul li{
+	display:inline-block;
+	width:130px;
+	height:20px;
+	padding:10px;
+	margin-top:5px;
+	margin-left:10px;
+	background:#eee;
+	color:#999;
+	font-size:16px;
+}
+footer{
+	width:78%;
+	padding:0 11%;
+	background:#222222;
+	margin-top:50px;
+	display:inline-block;
+	border-bottom:1px solid #444;
+}
+footer .last-nav{
+	height:160px;
+	width:300px;
+	float:left;
+	margin-left:9%;
+	padding-bottom:5%;
+}
+footer .last-nav ul li{
+	font-size:16px;
+	color:#CCC;
+	margin-top:15px;
+}
+footer .last-nav li:nth-of-type(1){
+	color:#CCC;
+	font-size:24px;
+	border-bottom:1px dashed #666;
+	font-weight:bolder;
+	margin-bottom:10px;
+}
+.last-thank{
+	margin-top:-5px;
+	height:50px;
+	padding-top:25px;
+	width:100%;
+	background:#111;
+	text-align:center;
+	color:#ccc;
+	font-size:16px;;
+}
